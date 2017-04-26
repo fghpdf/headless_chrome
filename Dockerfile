@@ -1,3 +1,4 @@
+FROM ubuntu:16.04
 MAINTAINER fghpdf <quxiangxuan@shimo.im>
 
 ADD https://shimo-static.oss-cn-beijing.aliyuncs.com/google-chrome-unstable_current_amd64.deb /src/chrome-headless.deb
