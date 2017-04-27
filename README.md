@@ -8,3 +8,6 @@
 
 ### run
 `docker run -i -t --shm-size=256m --rm --name=headlessChrome_image -p=127.0.0.1:9222:9222 fghpdf/headless_chrome`
+
+### run chrome
+`google-chrome-unstable --no-sandbox --headless --remote-debugging-port=9222 --disable-gpu https://shimo.im`
